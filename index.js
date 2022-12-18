@@ -17,3 +17,9 @@ sim.addEventListener('click',()=>{
     pedido.classList.add('pulsar')
     
 })
+nao.addEventListener('click',()=>{
+    const y = Math.floor(Math.random()*-90)
+        const x = Math.floor(Math.random()*-90)  
+            nao.style.top = `${-y}%`
+            nao.style.left = `${-x}%`
+})
